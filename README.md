@@ -80,10 +80,6 @@ The tool will create a `.txt` label file for each image in your specified output
 
 Contributions are welcome! Please feel free to submit issues or pull requests for bug fixes, new features, or documentation improvements.
 
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ---
 **Author**: YouLuoYuan TuBoShu，My Web Site：www.youluoyuan.com
 
