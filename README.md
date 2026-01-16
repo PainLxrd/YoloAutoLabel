@@ -76,15 +76,6 @@ It's perfect for bootstrapping your object detection projects or quickly labelin
 
 The tool will create a `.txt` label file for each image in your specified output directory and generate a `classes.txt` file listing the annotated classes in order.
 
-## 📂 Project Structure
-yolo-auto-annotation-tool/
-├── main.py # Main GUI application
-├── auto_annotator.py # Core logic for annotation and preview
-├── models/ # Directory for your YOLO .pt models
-│ └── your_model.pt
-└── README.md
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests for bug fixes, new features, or documentation improvements.
@@ -95,3 +86,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 **Author**: YouLuoYuan TuBoShu，My Web Site：www.youluoyuan.com
+
+![Preview](https://raw.githubusercontent.com/PainLxrd/YoloAutoLabel/refs/heads/main/preview.png)
