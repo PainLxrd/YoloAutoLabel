@@ -22,7 +22,7 @@ It's perfect for bootstrapping your object detection projects or quickly labelin
 ## ✨ Features
 
 *   **Intuitive GUI**: Easy-to-use interface built with PyQt5.
-*   **Model Agnostic**: Works with any YOLOv5/v8 `.pt` model file.
+*   **Model Agnostic**: Works with any YOLOv5/v8/v11... `.pt` model file.
 *   **Class Filtering**: Choose exactly which object classes to annotate.
 *   **Real-time Preview**: See how your model performs on your images before full annotation.
 *   **Confidence Threshold**: Adjust the detection confidence to fine-tune results.
@@ -32,38 +32,17 @@ It's perfect for bootstrapping your object detection projects or quickly labelin
 ## 🚀 Installation
 
 1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/yolo-auto-annotation-tool.git
-    cd yolo-auto-annotation-tool
-    ```
-
+    Clone or download this repository to your local machine.
 2.  **Install dependencies**:
-    It's highly recommended to use a virtual environment.
-    ```bash
-    # Create and activate a virtual environment (optional but recommended)
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-    # Install required packages
-    pip install -r requirements.txt
-    ```
-    *(Note: You'll need to create a `requirements.txt` file with the following content)*:
-    ```
-    opencv-python
-    ultralytics
-    torch
-    torchvision
-    PyQt5
-    ```
-
+    Install the required Python packages listed in requirements.txt. 
 3.  **Prepare your model**:
-    Place your trained YOLO `.pt` model file into the `models/` directory.
+    Place your trained YOLO `.pt` model file into the `models/` directory,Start the tool by running: python main_en.py
 
 ## 🛠️ Usage
 
 1.  **Run the application**:
     ```bash
-    python main.py
+    main_en.py
     ```
 
 2.  **In the GUI**:
@@ -75,10 +54,6 @@ It's perfect for bootstrapping your object detection projects or quickly labelin
     *   **Annotate**: Once satisfied, click "Start Auto-Annotation" to process all images.
 
 The tool will create a `.txt` label file for each image in your specified output directory and generate a `classes.txt` file listing the annotated classes in order.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests for bug fixes, new features, or documentation improvements.
 
 ---
 **Author**: YouLuoYuan TuBoShu，My Web Site：www.youluoyuan.com
